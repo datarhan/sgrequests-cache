@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  redis:
+    image: redis:7.2-alpine
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - redis
+    command: ["bash", "-lc", "scripts/run_tests.sh"]
+
