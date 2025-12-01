@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.0.0] - 2024-12-01
+## [2.0.0] - 2025-12-01
 
 ### Added
 - Advanced caching features (stale-while-revalidate, serve-stale-on-error)
@@ -37,7 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Le Macaron crawler: 324x speedup with 62.5% hit rate
 - Cache hit deserialization: ~10% faster after optimization
 
-## [1.0.0] - 2024-10-28
+## [1.0.0] - 2025-10-28
 
 ### Added
 - Initial release
